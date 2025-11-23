@@ -3,8 +3,7 @@ name: Jekyll Build and Deploy
 on:
   push:
     branches:
-      - main  # replace with your default branch if different
-
+      - master  
 jobs:
   build:
     runs-on: ubuntu-latest
